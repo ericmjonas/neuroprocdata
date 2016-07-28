@@ -1,4 +1,4 @@
-# Data for "Could a neuroscientist understand a microprocessor" 
+# neuroproc datasets 
 
 
 This is super-preliminary and not public yet, as it's buggy! So please
@@ -26,3 +26,4 @@ We have a mailing list (`neuroproc@googlegroups.com`) and
 [associated Google group](https://groups.google.com/forum/#!forum/neuroproc)
 for discussion. You can also create github issues if there are
 problems or omissions in the data. 
+
