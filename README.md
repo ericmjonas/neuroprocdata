@@ -15,5 +15,14 @@ Available:
 Basic explanations of the data can be found in the ipython
 notebooks included in this project. 
 
+Notes:
+- All data is stored in s3, and many of the files are massive
+- All the original data was analyzed in python, and thus we have a lot
+  of `.npy` files. I've made an effort to also create
+  [HDF5](https://www.hdfgroup.org/HDF5/) versions that have a single
+  dataset internally, `data`, which corresponds to the `.npy` file.
 
-All data is stored in s3, and the files are massive. 
+We have a mailing list (`neuroproc@googlegroups.com`) and
+[associated Google group](https://groups.google.com/forum/#!forum/neuroproc)
+for discussion. You can also create github issues if there are
+problems or omissions in the data. 
