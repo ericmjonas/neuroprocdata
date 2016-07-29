@@ -6,7 +6,7 @@ be careful and tread lightly.
 
 
 Available: 
-- [ ] Connectivty 
+- [x] Connectivty 
 - [ ] main timeseries
 - [ ] output images / frames for above timeseries
 - [ ] lesion data
