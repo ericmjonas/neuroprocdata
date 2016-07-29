@@ -7,7 +7,7 @@ be careful and tread lightly.
 
 Available: 
 - [x] Connectivty 
-- [ ] main timeseries
+- [x] main timeseries
 - [ ] output images / frames for above timeseries
 - [ ] lesion data
 - [ ] memory IO 
