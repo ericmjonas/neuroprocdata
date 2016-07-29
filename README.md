@@ -27,3 +27,28 @@ We have a mailing list (`neuroproc@googlegroups.com`) and
 for discussion. You can also create github issues if there are
 problems or omissions in the data. 
 
+### Gzipping time series
+
+The raw timeseries are huge, ~20GB+ so I've gzipped them, which
+reduces the size between 10 and 20x. There were a lot of
+trade-offs: I like the `npy` format because it's easy to memory-map
+in the files, etc. For reference:
+
+```
+$ time gzip pitfall-big.100000.ts.spikes.npy
+
+real    15m53.877s
+user    15m35.724s
+sys     0m17.296s
+
+```
+
+```
+$ time gunzip pitfall-big.100000.ts.spikes.npy.gz
+
+real    4m53.549s
+user    3m29.004s
+sys     0m26.792s
+
+```
+
