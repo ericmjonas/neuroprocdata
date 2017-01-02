@@ -9,7 +9,7 @@ Available:
 - [x] Connectivty 
 - [x] main timeseries
 - [ ] output images / frames for above timeseries
-- [ ] lesion data
+- [x] lesion data
 - [ ] memory IO 
 
 Basic explanations of the data can be found in the ipython
